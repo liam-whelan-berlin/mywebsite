@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Black";
+  color: black;
+  font-size: medium;
+  background-color: orange;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+.contact,
+.name {
+  font-size: xx-large;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.location {
+  font-size: large;
+}
+
+.need {
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  width: fit-content;
+  margin-right: 5vw;
+  margin-top: 2.5vh;
+}
+
+main {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main section {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.solution h1,
+.solution h1 span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  align-items: end;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.about ul {
+  list-style-type: none;
+}
+
+.need {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.need .hi,
+.fixed {
+  font-size: xx-large;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 10vh;
+  padding-bottom: 2vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.see {
+  background-color: orange;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile {
+    display: initial;
+  }
+  .desktop {
+    display: none;
+  }
+}
